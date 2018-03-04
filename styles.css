@@ -1,0 +1,290 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /*color: #222;*/
+  background: white;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background-color: rgba(255,255,255, 0.9);
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 100;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: #004c4c;
+    font-weight: 100;
+    transition: .3s;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .3s;
+  color: #004c4c;
+}
+.nav a:hover {
+  color: Indianred;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.nav .name:hover {
+  color: Indianred;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+header {
+  text-align: center;
+  background: url('images/background3.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  border-bottom: 3px double white;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 5px double rgba(255,255,255,0.8);
+  transition: all .5s;
+}
+header .profile-image:hover {
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.tag-box {
+   background-color: rgba(225,225,225,0.75);
+   width: 300px;
+   padding: 25px;
+   margin: 10px auto;
+   border-style: double;
+   border-width: 7px;
+   border-color: white;
+   transition: .3s;
+}
+.tag {
+  color: #004c4c;
+  padding: 0;
+  display: table;
+  margin: auto;
+  transition: all 0.3s;
+}
+.name{
+  font-weight: 100;
+}
+.subtitle {
+  font-weight: 100;
+}
+.location {
+  font-weight: 100;
+}
+
+.tag:hover {
+  color: #004c4c;
+  font-weight: 100;
+  letter-spacing: 7px;
+  }
+.tag-box:hover {
+  border: 5px double white;
+  border-radius: 50%;
+}
+
+.body-background {
+    background-image: url('images/brick.png');
+    background-size: cover;
+    margin: 0;
+      }
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: white;
+  border: 6px double rgba(0, 128, 128, 0.6);
+  border-radius: 6px;
+  transition: all .5s;
+  color: #004c4c;
+  font-weight: 200;
+
+}
+.email {
+  color: #3d6a6a;
+  font-style: oblique;
+}
+.email:hover {
+color: #c94f4f;
+font-style:normal;
+}
+.card:hover {
+  border-color: #c94f4f;
+  border-radius: 10%;
+}
+.card-h2 {
+  font-weight: 100;
+  font-style: oblique;
+  transition: 0.3s;
+  }
+  .card-h2:hover {
+    color: #c94f4f;
+    font-weight: 100;
+    letter-spacing: 2px;
+    }
+
+ul.skills {
+  padding: 2px;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 2px;
+  display: inline-block;
+  background: white;
+  color: #3d6a6a;
+  padding: 5px 10px;
+  margin-right: 1px;
+  margin-top: 5px;
+  border: 3px double #d1e7e7;
+  }
+
+.skills li:nth-child(odd) {
+  background: white;
+  border: 3px double #d1e7e7;
+  }
+  ul.skills:hover {
+    color: #004c4c;
+    font-weight: 100;
+    letter-spacing: 7px;
+    }
+
+.skills li:hover{
+  border: 1px dashed #c94f4f;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .6em;
+  color: #004c4c;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .8;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/if_Aquicon-Twitter_249192.png);
+}
+
+a.github {
+  background-image: url(images/if_Aquicon-Github_249191.png);
+}
+a.Instagram {
+  background-image: url(images/if_Aquicon-Instagram_249200.png);
+}
+a.Facebook {
+  background-image: url(images/if_Aquicon-Facebook_249180.png);
+}
+a.social:hover {
+  opacity: 1;
+  transform: scale(1.8) rotate(10deg);
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex;
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
