@@ -261,7 +261,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
-  .flex {
+.flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
@@ -270,7 +270,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+ header {
     min-height: 470px;
   }
 
@@ -278,7 +278,6 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-
 
   main {
     padding-top: 20px;
@@ -294,4 +293,3 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
