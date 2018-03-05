@@ -197,8 +197,7 @@ p {
     height: 85%;
 }
 
-.html {width: 5%;
-      background-color: #4CAF50;}
+.html {width: 5%; background-color: #4CAF50;}
 .css {width: 5%; background-color: #2196F3;  height: 85%;}
 .illustrator {width: 60%; background-color: #f44336;  height: 85%;}
 .photoshop {width: 60%; background-color: #008080;  height: 85%;}
@@ -237,19 +236,11 @@ a.social {
   opacity: .5;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/if_Aquicon-Twitter_249192.png);
-}
+a.twitter {background-image: url(images/if_Aquicon-Twitter_249192.png);}
+a.github {background-image: url(images/if_Aquicon-Github_249191.png);}
+a.Instagram {background-image: url(images/if_Aquicon-Instagram_249200.png);}
+a.Facebook {background-image: url(images/if_Aquicon-Facebook_249180.png);}
 
-a.github {
-  background-image: url(images/if_Aquicon-Github_249191.png);
-}
-a.Instagram {
-  background-image: url(images/if_Aquicon-Instagram_249200.png);
-}
-a.Facebook {
-  background-image: url(images/if_Aquicon-Facebook_249180.png);
-}
 a.social:hover {
   opacity: 1;
   transform: scale(1.8) rotate(10deg);
@@ -274,11 +265,10 @@ a.social:hover {
     min-height: 470px;
   }
 
-  .nav {
+ .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
-
   main {
     padding-top: 20px;
   }
@@ -292,4 +282,4 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+}
