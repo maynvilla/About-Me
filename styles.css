@@ -230,19 +230,12 @@ a.social {
   opacity: .8;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/if_Aquicon-Twitter_249192.png);
-}
+a.twitter {background-image: url(images/if_Aquicon-Twitter_249192.png);}
 
-a.github {
-  background-image: url(images/if_Aquicon-Github_249191.png);
-}
-a.Instagram {
-  background-image: url(images/if_Aquicon-Instagram_249200.png);
-}
-a.Facebook {
-  background-image: url(images/if_Aquicon-Facebook_249180.png);
-}
+a.github {background-image: url(images/if_Aquicon-Github_249191.png);}
+a.Instagram {background-image: url(images/if_Aquicon-Instagram_249200.png);}
+a.Facebook {background-image: url(images/if_Aquicon-Facebook_249180.png);}
+
 a.social:hover {
   opacity: 1;
   transform: scale(1.8) rotate(10deg);
@@ -286,5 +279,5 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+}
 
